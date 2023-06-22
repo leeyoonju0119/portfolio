@@ -1,0 +1,24 @@
+package com.portfolio.domain;
+
+import java.util.Date;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
+public class PaymentVO {
+
+	private Integer	pay_code;
+	private Long ord_code;
+	private String mbsp_id;
+	private String pay_method;
+	private int	pay_price;
+	private String pay_user;
+	private String pay_bank;
+	private Date pay_date;
+	private String pay_memo;
+	
+}
