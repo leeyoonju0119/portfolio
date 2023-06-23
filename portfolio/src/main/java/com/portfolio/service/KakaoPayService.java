@@ -96,8 +96,8 @@ public class KakaoPayService {
 	// 공통헤더정보.
 	private HttpHeaders getHeaders() {
 		HttpHeaders headers = new HttpHeaders();
-		headers.set("Authorization", "KakaoAK 5d3ed4699e287a3fce30939e96491628");
-		headers.set("Content-type", "application/x-www-form-urlencoded;charset=utf-8");
+		headers.set("", "");
+		headers.set("", "");
 		
 		return headers;
 	}
